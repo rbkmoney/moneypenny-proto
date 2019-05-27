@@ -1,8 +1,0 @@
-{application, moli_proto, [
-    {description, "Thrift proto for moli"},
-    {vsn, "0.1.0"},
-    {applications, [
-        kernel,
-        stdlib
-    ]}
-]}.

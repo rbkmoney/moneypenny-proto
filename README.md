@@ -1,1 +1,3 @@
-# moli-proto
+# Miss Moneypenny protocol
+
+Mobile Network Portability
