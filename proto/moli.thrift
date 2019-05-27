@@ -10,7 +10,7 @@ enum Operator {
 }
 
 exception BadPhoneFormat {}
-exception ProviderNotFound {}
+exception OperatorNotFound {}
 
 struct ResponseData {
     1: required Operator operator
@@ -31,10 +31,10 @@ service Moli {
     * Получить оператора по номеру телефона
     * кидает:
     *  BadPhoneFormat, некорректный телефон
-    *  ProviderNotFound, если оператор не определен
+    *  OperatorNotFound, если оператор не определен
     */
     ResponseData Lookup (1: PhoneNumber phone) throws (
         1: BadPhoneFormat   ex1
-        2: ProviderNotFound ex2
+        2: OperatorNotFound ex2
     )
 }
