@@ -1,4 +1,4 @@
-namespace java com.rbkmoney.mpn
+namespace java com.rbkmoney.mnp
 namespace erlang mnp
 
 enum Operator {

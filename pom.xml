@@ -11,7 +11,7 @@
     </parent>
 
     <groupId>com.rbkmoney</groupId>
-    <artifactId>mpn-proto</artifactId>
+    <artifactId>Moneypenny-proto</artifactId>
     <version>SNAPSHOT</version>
     <packaging>jar</packaging>
 
