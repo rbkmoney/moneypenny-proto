@@ -1,0 +1,8 @@
+{application, moneypenny_proto, [
+    {description, "Thrift proto for Miss Moneypenny"},
+    {vsn, "0.1.0"},
+    {applications, [
+        kernel,
+        stdlib
+    ]}
+]}.
