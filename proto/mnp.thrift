@@ -20,10 +20,11 @@ struct ResponseData {
 * Телефонный номер согласно (E.164 — рекомендация ITU-T)
 * +79114363738
 * cc = 7 - код страны(1-3 цифры)
-* ctn = 9114363738 - 10-ти значный номер абонента
+* ctn = 9114363738 - 10-ти значный номер абонента(макс 15)
 */
 struct PhoneNumber {
     1: required string ctn
+    2: required string cc
 }
 
 service Mnp {
