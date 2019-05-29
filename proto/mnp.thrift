@@ -23,8 +23,8 @@ struct ResponseData {
 * ctn = 9114363738 - 10-ти значный номер абонента(макс 15)
 */
 struct PhoneNumber {
-    1: required string ctn
-    2: required string cc
+    1: required string cc
+    2: required string ctn
 }
 
 service Mnp {
