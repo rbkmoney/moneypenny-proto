@@ -9,7 +9,7 @@ enum Operator {
     yota
 }
 
-typedef map<string, string> StringMap
+typedef map<string, string> AdapterOptions
 
 exception BadPhoneFormat {}
 exception OperatorNotFound {}
@@ -30,8 +30,8 @@ struct PhoneNumber {
 }
 
 struct RequestParams {
-    1: required PhoneNumber phone
-    2: optional StringMap   options = {}
+    1: required PhoneNumber    phone
+    2: optional AdapterOptions options = {}
 }
 
 service Mnp {
