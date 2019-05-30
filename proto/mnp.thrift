@@ -31,7 +31,7 @@ struct PhoneNumber {
 
 struct RequestParams {
     1: required PhoneNumber phone
-    2: optional StringMap   options
+    2: optional StringMap   options = {}
 }
 
 service Mnp {
