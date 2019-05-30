@@ -9,6 +9,8 @@ enum Operator {
     yota
 }
 
+typedef map<string, string> StringMap
+
 exception BadPhoneFormat {}
 exception OperatorNotFound {}
 
@@ -27,6 +29,11 @@ struct PhoneNumber {
     2: required string ctn
 }
 
+struct RequestParams {
+    1: required PhoneNumber phone
+    2: optional StringMap   options
+}
+
 service Mnp {
     /**
     * Получить оператора по номеру телефона
@@ -34,7 +41,7 @@ service Mnp {
     *  BadPhoneFormat, некорректный телефон
     *  OperatorNotFound, если оператор не определен
     */
-    ResponseData Lookup (1: PhoneNumber phone) throws (
+    ResponseData Lookup (1: RequestParams params) throws (
         1: BadPhoneFormat   ex1
         2: OperatorNotFound ex2
     )
