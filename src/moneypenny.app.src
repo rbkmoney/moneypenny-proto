@@ -1,4 +1,4 @@
-{application, moneypenny_proto, [
+{application, moneypenny, [
     {description, "Thrift proto for Miss Moneypenny"},
     {vsn, "0.1.0"},
     {applications, [

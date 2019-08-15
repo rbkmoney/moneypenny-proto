@@ -1,7 +1,7 @@
 #!groovy
 // -*- mode: groovy -*-
 
-build('moneypenny-proto', 'docker-host') {
+build('moneypenny', 'docker-host') {
     checkoutRepo()
     loadBuildUtils()
 
