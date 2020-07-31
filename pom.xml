@@ -17,7 +17,7 @@
 
     <name>Moneypenny</name>
     <description>Generates jar artifact containing compiled thrift classes based on generated thrift IDL files</description>
-    <url>https://github.com/rbkmoney/machinegun_proto.git</url>
+    <url>https://github.com/rbkmoney/moneypenny.git</url>
 
     <developers>
         <developer>
@@ -27,9 +27,9 @@
     </developers>
 
     <scm>
-        <connection>scm:git:git://github.com/rbkmoney/machinegun_proto.git</connection>
-        <developerConnection>scm:git:ssh://github.com/rbkmoney/machinegun_proto.git</developerConnection>
-        <url>https://github.com/rbkmoney/machinegun_proto/tree/master</url>
+        <connection>scm:git:git://github.com/rbkmoney/moneypenny.git</connection>
+        <developerConnection>scm:git:ssh://github.com/rbkmoney/moneypenny.git</developerConnection>
+        <url>https://github.com/rbkmoney/moneypenny/tree/master</url>
     </scm>
 
     <properties>
