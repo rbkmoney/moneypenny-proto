@@ -11,7 +11,7 @@
     </parent>
 
     <groupId>com.rbkmoney</groupId>
-    <artifactId>Moneypenny</artifactId>
+    <artifactId>moneypenny-proto</artifactId>
     <version>SNAPSHOT</version>
     <packaging>jar</packaging>
 
